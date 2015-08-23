@@ -1,0 +1,146 @@
+	 	 	 SYMBOL TABLE
+	 	 	 ____________ 
+ 
+
+Lexeme 	 	 Type 	 	 Num Value 	 Str Value 	 Line
+______ 	 	 ____ 	 	 _________ 	 _________ 	 ____
+# 	 	 SpecialSymbol 	 0 	 	   	 	 1
+include 	 	 Keyword 	 0 	 	   	 	 1
+< 	 	 SpecialSymbol 	 0 	 	   	 	 1
+stdio 	 	 Identifier 	 0 	 	   	 	 1
+. 	 	 SpecialSymbol 	 0 	 	   	 	 1
+h 	 	 Identifier 	 0 	 	   	 	 1
+> 	 	 SpecialSymbol 	 0 	 	   	 	 1
+# 	 	 SpecialSymbol 	 0 	 	   	 	 2
+include 	 	 Keyword 	 0 	 	   	 	 2
+< 	 	 SpecialSymbol 	 0 	 	   	 	 2
+string 	 	 Identifier 	 0 	 	   	 	 2
+. 	 	 SpecialSymbol 	 0 	 	   	 	 2
+h 	 	 Identifier 	 0 	 	   	 	 2
+> 	 	 SpecialSymbol 	 0 	 	   	 	 2
+int 	 	 Keyword 	 0 	 	   	 	 4
+main 	 	 Keyword 	 0 	 	   	 	 4
+( 	 	 SpecialSymbol 	 0 	 	   	 	 4
+) 	 	 SpecialSymbol 	 0 	 	   	 	 4
+{ 	 	 SpecialSymbol 	 0 	 	   	 	 5
+int 	 	 Keyword 	 0 	 	   	 	 6
+a 	 	 Identifier 	 0 	 	   	 	 6
+, 	 	 SpecialSymbol 	 0 	 	   	 	 6
+ab 	 	 Identifier 	 0 	 	   	 	 6
+[ 	 	 SpecialSymbol 	 0 	 	   	 	 6
+  	 	 Number 	 100 	 	   	 	 6
+] 	 	 SpecialSymbol 	 0 	 	   	 	 6
+, 	 	 SpecialSymbol 	 0 	 	   	 	 6
+b 	 	 Identifier 	 0 	 	   	 	 6
+, 	 	 SpecialSymbol 	 0 	 	   	 	 6
+c 	 	 Identifier 	 0 	 	   	 	 6
+; 	 	 SpecialSymbol 	 0 	 	   	 	 6
+; 	 	 SpecialSymbol 	 0 	 	   	 	 7
+; 	 	 SpecialSymbol 	 0 	 	   	 	 7
+a 	 	 Identifier 	 0 	 	   	 	 8
+= 	 	 SpecialSymbol 	 0 	 	   	 	 8
+  	 	 Number 	 1 	 	   	 	 8
+; 	 	 SpecialSymbol 	 0 	 	   	 	 8
+b 	 	 Identifier 	 0 	 	   	 	 9
+= 	 	 SpecialSymbol 	 0 	 	   	 	 9
+  	 	 Number 	 2 	 	   	 	 9
+; 	 	 SpecialSymbol 	 0 	 	   	 	 9
+c 	 	 Identifier 	 0 	 	   	 	 10
+= 	 	 SpecialSymbol 	 0 	 	   	 	 10
+a 	 	 Identifier 	 0 	 	   	 	 10
+; 	 	 SpecialSymbol 	 0 	 	   	 	 10
+for 	 	 Keyword 	 0 	 	   	 	 11
+( 	 	 SpecialSymbol 	 0 	 	   	 	 11
+c 	 	 Identifier 	 0 	 	   	 	 11
+= 	 	 SpecialSymbol 	 0 	 	   	 	 11
+  	 	 Number 	 0 	 	   	 	 11
+; 	 	 SpecialSymbol 	 0 	 	   	 	 11
+c 	 	 Identifier 	 0 	 	   	 	 11
+<= 	 	 RelationalOp 	 0 	 	   	 	 11
+  	 	 Number 	 5 	 	   	 	 11
+, 	 	 SpecialSymbol 	 0 	 	   	 	 11
+c 	 	 Identifier 	 0 	 	   	 	 11
+= 	 	 SpecialSymbol 	 0 	 	   	 	 11
+c 	 	 Identifier 	 0 	 	   	 	 11
++ 	 	 SpecialSymbol 	 0 	 	   	 	 11
+  	 	 Number 	 1 	 	   	 	 11
+) 	 	 SpecialSymbol 	 0 	 	   	 	 11
+{ 	 	 SpecialSymbol 	 0 	 	   	 	 12
+a 	 	 Identifier 	 0 	 	   	 	 13
+= 	 	 SpecialSymbol 	 0 	 	   	 	 13
+a 	 	 Identifier 	 0 	 	   	 	 13
++ 	 	 SpecialSymbol 	 0 	 	   	 	 13
+  	 	 Number 	 1 	 	   	 	 13
+; 	 	 SpecialSymbol 	 0 	 	   	 	 13
+} 	 	 SpecialSymbol 	 0 	 	   	 	 14
+d 	 	 Identifier 	 0 	 	   	 	 15
+= 	 	 SpecialSymbol 	 0 	 	   	 	 15
+c 	 	 Identifier 	 0 	 	   	 	 15
+; 	 	 SpecialSymbol 	 0 	 	   	 	 15
+} 	 	 SpecialSymbol 	 0 	 	   	 	 18
+
+
+
+
+
+	 	 	 ERROR DETECTION
+	 	 	 _______________ 
+ 
+
+Error in Line Number 7: ;
+Error in Line Number 7: ;
+Error in Line Number 11: ,
+Error in Line Number 11:  
+Error in Line Number 11: )
+Error in Line Number 12: {
+Error in Line Number 15: d
+d not declared.
+Error in Line Number 15: d
+Error in Line Number 15: =
+Error in Line Number 15: =
+Error in Line Number 15: c
+Error in Line Number 15: ;
+Error in Line Number 18: }
+Error in Line Number 18: }
+
+14 Errors are present
+
+	 	 	 PARSE TREE
+	 	 	 __________
+ 
+
+ <PROGRAM>
+	 <HEADER>
+		 <tag '#include <' >
+ 			 <tag 'ID >' >
+	 <HEADER>
+		 <tag '#include <' >
+ 			 <tag 'ID >' >
+	 <FUNCTION>
+		 <tag 'int/void main()'>
+		 <BLOCK>
+		 <tag '{'>
+			 <DECLS>
+				 <DECL>
+					 <TYPE>
+						 <tag KEYWORD = 'int/char'>
+						 <ID_LIST>
+							 <tag 'ID'>
+							 <tag 'ID'>
+							 <tag 'ID'>
+							 <tag 'ID'>
+							 <tag ';'>
+			 <STMTS>
+							 <EXPR>
+								 <tag '='>
+							 <tag ';'>
+							 <EXPR>
+								 <tag '='>
+							 <tag ';'>
+							 <EXPR>
+								 <tag '='>
+							 <tag ';'>
+							 <EXPR>
+								 <tag '='>
+							 <tag ';'>
+				 <tag '}'>
