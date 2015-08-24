@@ -8,7 +8,9 @@ This Compiler program is written in C and contains logic to tokenize (lexer - ge
 
 **Executing**:
 
-cc Compiler.c (Ensure Program.c - the input file is in the same directory)
+cc Compiler.c -o Compiler (Compile - Ensure Program.c - the input file is in the same directory)
+
+./Compiler (Execute)
 
 **Grammar for the langauge**:
 ```
